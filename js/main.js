@@ -25,4 +25,12 @@ function addItem(newItem){
 
 }
 
-//addItem
+//use the function form console addItem("chocolate")
+
+//adding HTML using createElement and appendChild
+
+const section = document.createElement('section')
+section.id= "todo"
+section.innerHTML = "<h2>Todo List</h2>"
+
+bodyTag.appendChild(section) //在browser里显示出来的。
